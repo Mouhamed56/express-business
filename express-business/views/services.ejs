@@ -1,0 +1,49 @@
+<% var titre = "Nos Services"; var page = "services"; %>
+<%- include('partials/header', { titre: titre, page: page }) %>
+
+  <div class="container">
+    <h2 class="section-title">Nos <span>Services</span></h2>
+    <div class="divider"></div>
+
+    <div class="services-grid">
+
+      <div class="service-card">
+        <div class="service-icon">💻</div>
+        <h3>Développement Web</h3>
+        <p>Création de sites web modernes, rapides et responsives avec les dernières technologies.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">📱</div>
+        <h3>Applications Mobiles</h3>
+        <p>Développement d'applications mobiles natives et hybrides pour iOS et Android.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🎨</div>
+        <h3>Design UI/UX</h3>
+        <p>Conception d'interfaces utilisateur intuitives et esthétiques centrées sur l'expérience.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">☁️</div>
+        <h3>Hébergement Cloud</h3>
+        <p>Solutions d'hébergement scalables et sécurisées pour vos applications.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🔧</div>
+        <h3>Maintenance</h3>
+        <p>Support technique et maintenance continue de vos systèmes informatiques.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">📊</div>
+        <h3>Conseil Digital</h3>
+        <p>Accompagnement stratégique pour votre transformation numérique.</p>
+      </div>
+
+    </div>
+  </div>
+
+<%- include('partials/footer') %>

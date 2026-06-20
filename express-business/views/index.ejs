@@ -1,0 +1,19 @@
+<% var titre = "Accueil"; var page = "accueil"; %>
+<%- include('partials/header', { titre: titre, page: page }) %>
+
+  <div class="container">
+    <div class="hero">
+      <h1>Bienvenue chez <span>MonEntreprise</span></h1>
+      <p>
+        Nous accompagnons les entreprises dans leur transformation digitale
+        grâce à des solutions web modernes, performantes et sur mesure.
+      </p>
+      <a href="/services" class="btn">Découvrir nos services</a>
+
+      <div>
+        <span class="hours-badge">🕘 Ouvert Lundi - Vendredi, 9h à 17h</span>
+      </div>
+    </div>
+  </div>
+
+<%- include('partials/footer') %>

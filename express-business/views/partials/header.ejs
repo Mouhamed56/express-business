@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= titre %> — MonEntreprise</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR — présente sur toutes les pages ===== -->
+  <nav class="navbar">
+    <span class="logo">🏢 MonEntreprise</span>
+    <ul class="nav-links">
+      <li><a href="/" class="<%= page === 'accueil' ? 'active' : '' %>">Accueil</a></li>
+      <li><a href="/services" class="<%= page === 'services' ? 'active' : '' %>">Nos Services</a></li>
+      <li><a href="/contact" class="<%= page === 'contact' ? 'active' : '' %>">Nous Contacter</a></li>
+    </ul>
+  </nav>
